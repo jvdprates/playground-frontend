@@ -3,14 +3,14 @@ import "./global.css";
 
 import Routes from "./routes";
 
+import ThemeContextProvider from "./contexts/ThemeContext";
+
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-      <Routes/>
-    </div>
+    <ThemeContextProvider>
+      <Routes />
+    </ThemeContextProvider>
   );
 }
 

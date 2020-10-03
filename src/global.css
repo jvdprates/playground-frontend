@@ -1,0 +1,27 @@
+html{
+    height: 100%;
+}
+            
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--ultraDark);
+}
+
+:root{
+    --lightMainColor: #7d8cc4;
+    --lightSecondaryColor: #93E1d8;
+    --darkMainColor: #310A31;
+    --darkSecondaryColor: #726Da8;
+    --ultraLight: #ddfff7;
+    --ultraDark: #0d1821;
+    --badRed: #d72638;
+    --goodGreen: #95c623;
+    --alertBlue: #0091AD;
+}
