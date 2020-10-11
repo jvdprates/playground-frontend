@@ -1,5 +1,6 @@
 .mainBody {
     height: 100%;
+    transition: 1s;
 }
 
 .mainBody .mainHeader {
@@ -9,7 +10,25 @@
     padding-right: 20px;
     padding-left: 20px;
     height: 15%;
+    transition: 1s;
 }
+
+.mainBody .mainHeader .mainIcon{
+    height: 50%;
+    width: auto;
+    transition: 1s;
+}
+
+.mainBody .mainHeader .mainTitle{
+    transition: 1s;
+}
+.mainBody .mainHeader .mainButton button{ 
+    border-radius: 20%;
+    border-width: 0;
+    text-emphasis-color: white;
+    padding: 5px 10px;
+    transition: 1s;
+}    
 
 .mainBody .mainContent {
     display: flex;
@@ -18,6 +37,7 @@
     justify-content: center;
     padding: 40px, 0;
     height: 75%;
+    transition: 1s;
 }
 
 .mainBody .mainContent .mainCentralBox {
@@ -28,12 +48,15 @@
     min-width: 50%;
     width: 70%;
     border-radius: 3%;
+    transition: 1s;
 }
 
 .mainBody .mainContent {
     height: 75%;
+    transition: 1s;
 }
 
 .mainBody .mainFooter {
     height: 10%;
+    transition: 1s;
 }
